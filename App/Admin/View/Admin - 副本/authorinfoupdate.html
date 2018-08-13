@@ -1,0 +1,48 @@
+<extend name="base" />
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>update</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<block name="head2">
+  <link href="__PUBLIC__/css/materialize.min.css" rel='stylesheet' type='text/css' />
+  <script src="__PUBLIC__/js/materialize.min.js" >
+  </script>
+</block>
+</head>
+<body>
+
+
+  <block name="where">
+<a href="{:U('Admin/Admin/authorInfo')}">authorInfo-></a>
+	<a href="#">authorInfoUpdata</a>
+	</block>
+
+	<block name="content1">
+	  <div  class="col-md-6 col-xs-offset-3">
+	<form method="post" action="__URL__/userInfoSave" class="form-horizontal" role="form" style="width:100%; padding:50px 0px 0px 0px;">
+		<input type="text" name="id" id="id" value="{$list.0.userid}" hidden="" />
+<input type="text" name="sta" id="sta" value='1' hidden="" />
+
+		<div class="col-md-8 col-xs-12 input-field">
+				<input type="text"  name="name" id="name" value="{$list.0.name}"  class="validate"/><br>
+				<label for="name">用户名:</label>
+		</div>
+
+
+		<div class="col-md-8 col-xs-12 input-field">
+				<input type="password"  name="password" id="password"  class="validate"/><br>
+				<label for="password">密码:</label>
+		</div>
+
+
+        <div class="col-sm-offset-2 col-sm-10">
+        <input type="submit" class="btn btn-default" />
+            </div>
+	</form>
+	</div>
+	</block>
+</body>
+
+<!-- /Bootstrap Core JavaScript -->
+</html>

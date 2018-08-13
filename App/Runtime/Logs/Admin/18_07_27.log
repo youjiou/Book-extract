@@ -1,0 +1,943 @@
+[ 2018-07-27T12:13:38+08:00 ] 192.168.0.116 /project/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index
+
+[ 2018-07-27T12:13:52+08:00 ] 192.168.0.116 /project/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2018-07-27T12:13:59+08:00 ] 192.168.0.116 /project/index.php/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2018-07-27T12:14:05+08:00 ] 192.168.0.116 /project/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Index
+
+[ 2018-07-27T12:14:18+08:00 ] 192.168.0.116 /project/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2018-07-27T12:14:33+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-27T12:14:35+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:14:35+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/js/modernizr-2.6.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2018-07-27T12:14:45+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:2.4461s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:14:54+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uinfomation` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `digest` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `digest` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:7.687440s ]
+INFO: [ view_parse ] --END-- [ RunTime:7.688440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:15:37+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uinfomation` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `digest` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `digest` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-27T12:15:39+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:15:41+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:15:41+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/js/modernizr-2.6.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2018-07-27T12:16:01+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:16:02+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uinfomation` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `digest` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `digest` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:16:17+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/bookInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( status=1 )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( status=1 ) LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:16:25+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/userInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uinfomation` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `uinfomation` LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:16:49+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/bookInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( status=1 )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( status=1 ) LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:18:02+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/userInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uinfomation` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `uinfomation` LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:18:06+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/userInfoUpdate.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `uinfomation` WHERE ( userid=2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.012058s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.012058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-07-27T12:18:47+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/udel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0040s ]
+SQL: DELETE FROM `uinfomation` WHERE `UserID` = 2 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:18:51+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/userInfoUpdate.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `uinfomation` WHERE ( userid=3 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:19:13+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/authorInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `uinfomation` INNER JOIN books ON uinfomation.userid = books.userid  GROUP BY books.userid  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `uinfomation` INNER JOIN books ON uinfomation.userid = books.userid  GROUP BY books.userid LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.761044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.761044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:19:23+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/booksCheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 ) LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.640151s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.640151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:19:33+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/bookUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:19:36+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/userInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uinfomation` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `uinfomation` LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:19:38+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/bookUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:19:41+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/userInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uinfomation` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uinfomation` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `uinfomation` LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+NOTIC: [8] Array to string conversion E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Admin\d8ce7c54836328eb611b996a7ec3d475.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:19:46+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/bookInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( status=1 )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( status=1 ) LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:19:50+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/bookInfoUpdate.html?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0800s ]
+SQL: SELECT * FROM `books` WHERE ( bid=5 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.385022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.385022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:20:15+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/bookInfoUpdate.html?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `books` WHERE ( bid=5 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:20:29+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/booksCheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 ) LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:20:36+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/reportAudit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `comment` left join uinfomation on  comment.uid = uinfomation.userid  WHERE ( status=1 )  [ RunTime:2.0891s ]
+SQL: SELECT * FROM `comment` left join uinfomation on  comment.uid = uinfomation.userid  WHERE ( status=1 ) LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.651152s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.651152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:20:36+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/booksCheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 ) LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:20:37+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/bookUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:21:35+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/bookUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:21:38+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/booksCheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 ) LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:21:39+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/booksCheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `books` left join uinfomation on  books.userid = uinfomation.userid  WHERE ( Status=0 ) LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-27T12:22:19+08:00 ] 192.168.0.116 /project/index.php/Admin/Admin/rank.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0040s ]
+SQL: SELECT books.bid,books.bookname,count(*) as num FROM `books` INNER JOIN comment ON books.bid = comment.bid  GROUP BY comment.bid ORDER BY num desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `digest` [ RunTime:0.0040s ]
+SQL: SELECT digest.bookid,books.bookname,count(*) as num FROM `digest` INNER JOIN books ON digest.bookid = books.bid  GROUP BY books.bid ORDER BY num desc LIMIT 10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.419024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.419024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:32:35+08:00 ] 192.168.0.103 /project/index.php/Admin/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-27T12:32:36+08:00 ] 192.168.0.103 /project/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:32:37+08:00 ] 192.168.0.103 /project/index.php/Admin/Admin/js/modernizr-2.6.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:js
+
+[ 2018-07-27T12:33:51+08:00 ] 192.168.0.103 /project/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-27T12:33:51+08:00 ] 192.168.0.103 /project/index.php/Admin/Admin/js/modernizr-2.6.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2018-07-27T12:33:58+08:00 ] 192.168.0.103 /project/index.php/Admin/Admin/login.html1001%E6%97%A0%E6%A0%87%E9%A2%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:login.html1001无标题
+

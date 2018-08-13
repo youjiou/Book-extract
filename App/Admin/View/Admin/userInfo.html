@@ -1,0 +1,63 @@
+<extend name="base" />
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+
+</head>
+<body>
+	<block name="where">
+	<a href="#">userInfo</a>
+
+	</block>
+
+<block name="content1">
+<!-- table Start -->
+
+			<table class="col-md-12 table table-striped tablesorter">
+				<thead>
+				<tr>
+					<th>id</th>
+
+					<th >账号</th>
+
+					<th>用户名</th>
+
+					<th>性别</th>
+					<th>操作
+					</th>
+				</tr>
+				</thead>
+				<tbody>
+				<volist name="list" id="vo">
+				<tr>
+
+					<td>{$vo.userid}</td>
+					<td>{$vo.username}</td>
+					<td>{$vo.name}</td>
+					<td><?php if($vo.sex==0){
+						echo '男';
+					}else{
+						echo '女';
+					} ?></td>
+					<td>
+						<a href="{:U('Admin/userInfoUpdate')}?id={$vo.userid}">修改</a>
+						<span onclick='del2(this,"{$vo.userid}","__URL__/udel")'>删除</span>
+					</td>
+				</tr>
+				</volist>
+				</tbody>
+			</table>
+<span class="text-center">{$page}</span>
+
+<!-- table end -->
+</block>
+
+<block name="footer">
+
+</block>
+
+
+</body>
+
+</html>

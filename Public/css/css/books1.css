@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+.container{ float:left; margin-left:14.1%; margin-bottom:2%;}
+.main_t{
+ height:auto;	
+ float:left;
+ width:100%;
+}
+.main_d{
+ height:auto;
+ float:left;
+ width:100%;
+}
+.book-img_msg{
+	background-color:#fff;
+	width:90%;
+	margin-left:2.5%;
+	margin-top:2.5%;
+	padding:22px;
+	border-bottom:solid 1px #FFCCFF;
+	float:left;
+}
+.book-img{
+	float:left;
+	
+}
+.book-img img{
+	width:170px;
+}
+.book-msg{
+	float:left;
+	margin_top:22px;
+	margin-left:5%;
+	width:70%}
+.book-msg b{
+	font-size:33px;
+	float:left;
+}
+.book-msg ul {
+	width:100%;
+    list-style-type: none;
+	    color: #ccc;
+}
+.book-msg ul li{
+    float:left;
+	margin-left:5%;
+}
+.img_bookmsg{
+	float:left;
+	margin-top:5%;
+}
+.book_button{	float:left; width:100%; margin-top: 5%;margin-left: 5%;}
+.book_button a{}
+.book_button a button {
+       padding: 2% 7% 2% 7%;
+    border-radius: 25px;
+    border: none;
+	float:left;
+	color:#FFF;
+}
+.content{float:left; background-color:#fff;width:90%;margin-left:2.5%;padding:22px;}
+.book_button span{	float:left; margin-top:1.5%;}
+.pl{float:left; width:45%;margin-left:2.5%}
+.pl b{
+	font-size:24px;	
+	font:bolder;	
+	margin-right:5%;
+	float:left;
+}
+.show_pl, .sz_book{
+	margin-left:5%;
+	margin-top:5%;
+	padding:0;
+	font-weight:normal;
+	float:left;
+	width:100%;
+	height:100%;
+}
+.pl .show_pl p{
+	font-size:16px;	
+	font-weight:normal;
+	margin-right:5%;
+	color:#666;
+	width:80%;
+	float:left;
+	height:100%;
+}
+.pl .menu_list1 a button, .sz .menu_list2 a button{
+	margin-top:5%;
+	float:left;
+	border-radius:20px;
+	padding:1% 4%;
+	background-color:#F063A5;
+	border:none;
+}
+.sz{
+	float:left;
+	width:49%;
+}
+.sz b{
+	font-size:24px;	
+	font:bolder;	
+	margin-right:5%;
+	float:left;
+}
+.sz .sz_book{
+	float:left;
+}	
+.sz .sz_book p{
+	font-size:16px;	
+	font-weight:normal;
+	color:#666;
+	float:left;
+	width:100%;
+}
+.pl_book textarea{
+	resize: none;
+	border:solid 2px #F1F1F1;
+	background-color:#F4F4F4;
+	padding:2%;
+	margin-top:7%;
+	width:78%;
+}

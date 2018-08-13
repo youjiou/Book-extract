@@ -1,0 +1,90 @@
+<extend name="base" />
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+
+</head> 
+<body>
+<block name="content1">
+<!--four-grids here-->
+<div class="four-grids">
+			<div class="col-md-3 four-grid">
+				<a href="{:U('Admin/Admin/userInfo')}">
+				<div class="four-agileits">
+					<div class="icon">
+						<i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+					</div>
+					<div class="four-text">
+						<h3>用户</h3>
+
+						<h4>
+						{$data.usercount}</h4>
+
+					</div>
+					
+				</div>
+				</a>
+			</div>
+
+		<div class="col-md-3 four-grid">
+			<a href="{:U('Admin/Admin/bookInfo')}">
+			<div class="four-w3ls">
+				<div class="icon">
+					<i class="glyphicon glyphicon-hdd" aria-hidden="true"></i>
+				</div>
+				<div class="four-text">
+					<h3>图书</h3>
+					<h4>{$data.bookcount}</h4>
+					
+				</div>
+				
+			</div>
+			</a>
+		</div>
+		<div class="col-md-3 four-grid">
+			<a href="#">
+			<div class="four-wthree">
+				<div class="icon">
+					<i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i>
+				</div>
+				<div class="four-text">
+					<h3>书摘</h3>
+					<h4>{$data.digestcount}</h4>
+					
+				</div>
+				
+			</div>
+			</a>
+		</div>
+	<div class="col-md-3 four-grid">
+		<a href="#">
+		<div class="four-agileinfo">
+			<div class="icon">
+				<i class="glyphicon glyphicon-edit" aria-hidden="true"></i>
+			</div>
+			<div class="four-text">
+				<h3>评论</h3>
+				<h4>{$data.commentcount}</h4>
+	
+			</div>
+			
+		</div>
+		</a>
+	</div>
+	<div>
+		
+		
+			<br>
+		
+		</div>
+	
+	<div class="clearfix" style="margin: 20px;"></div>
+
+	
+</div>
+<!--//four-grids here-->
+</block>
+</body>
+
+</html>

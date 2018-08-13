@@ -1,0 +1,33 @@
+<extend name="base" />
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+
+</head>
+<body>
+	<block name="where">
+		<a href="{:U('Admin/Admin/bookInfo')}">bookInfo</a>->
+	<a href="#">bookRead</a>
+
+	</block>
+
+<block name="content1">
+	<br>
+
+		<div class="container">
+			<h1>{$book.0.bookname}</h1>
+			<h1></h1>
+
+<?php
+	echo html_entity_decode($book[0]['content']);
+?>
+
+		</div>
+
+
+<!--//four-grids here-->
+</block>
+</body>
+
+</html>

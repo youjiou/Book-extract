@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	height:100%}
+	body{
+		height:100%;}
+		
+.container{
+	height:100%;
+	margin-bottom:5%;
+}
+.mgs{
+	margin:5% 0% 0% 20%;
+	width:60%;
+	bottom:5%;
+	padding:12px;
+}
+.mgs b{
+	font-size:15px;	
+}
+.mgs .menu_li{
+	margin-top:10px;
+	padding:0px;
+	height: 30px;
+	background:#cccccc;
+}
+.mgs .menu_li ul{
+	margin:0; padding:0;list-style-image:none;
+}
+.mgs .menu_li ul li { float:left;padding:0px 0 5px 12px; line-height:25px;}
+.mgs .menu_li ul li:hover {}
+.mgs .menu_li ul li a{
+	font-size: 13px; line-height:14px;color: #686868;display: block;padding: 6px 10px 6px 10px;margin-bottom: 5px;z-index: 6;position: relative;font-weight:bold;
+}
+.mgs .menu_li ul li:hover a{color:#000;}
+.menu_content{
+	margin:10px;
+	height: auto;
+	background:#fff;
+	text-align:left;
+}

@@ -1,0 +1,50 @@
+<extend name="base" />
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>update</title>
+    <link href="__PUBLIC__/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <block name="head2">
+      <link href="__PUBLIC__/css/materialize.min.css" rel='stylesheet' type='text/css' />
+      <script src="__PUBLIC__/js/materialize.min.js" >
+      </script>
+    </block>
+</head>
+<body>
+  <block name="where">
+<a href="{:U('Admin/Admin/bookInfo')}">bookInfo-></a>
+	<a href="#">bookInfoUpdata</a>
+	</block>
+<block name="content1">
+
+    <div  class="col-md-6 col-xs-offset-3">
+        <form method="post" action="__URL__/booksInfoSave" class="form-horizontal" role="form" style="width:100%; padding:50px 0px 0px 0px;">
+            <input type="text" name="id" id="id" value="{$list.0.bid}" hidden="" /> <!--bid-->
+
+            <div class="col-md-8 col-xs-12 input-field">
+                <input type="text" required="" name="bookName" id="bookName" value="{$list.0.bookname}"  class="validate"/><br>
+                <label for="bookName">bookName</label>   <!--bookName-->
+            </div>
+
+            <div class=" col-md-8 col-xs-12 input-field">
+                <input type="text" required="" name="status" id="status" value="{$list.0.status}"  class="validate"/><br>
+                <label for="status">状态:</label>
+            </div>
+
+            <div class=" col-md-8 col-xs-12 input-field">
+
+              <label for="status">简介:</label>
+                <textarea  style="height:100px" id="introduction" name="introduction">{$list.0.introduction}</textarea>
+            </div>
+
+            <div class=" col-sm-10">
+                <br>
+                <input type="submit" class="waves-effect waves-light btn" />
+            </div>
+        </form>
+    </div>
+</block>
+</body>
+
+<!-- /Bootstrap Core JavaScript -->
+</html>

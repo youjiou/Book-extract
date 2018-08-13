@@ -1,0 +1,54 @@
+<extend name="base" />
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+
+</head>
+<body>
+	<block name="where">
+	<a href="#">reportAudit</a>
+
+	</block>
+<!-- table Start -->
+<block name="content1">
+			<table class="col-md-12 table table-striped tablesorter">
+				<thead>
+				<tr>
+					<th>UID</th>
+
+					<th >评论者</th>
+
+					<th>评论</th>
+
+
+					<th>操作
+					</th>
+				</tr>
+				</thead>
+				<tbody>
+
+
+				<volist name="list" id="vo">
+				<tr>
+					<td>{$vo.userid}</td>
+					<td>{$vo.name}</td>
+					<td><span>{$vo.message}</span></td>
+					<td  width="130px">
+						<a  href="{:U('Admin/reportJu')}?id={$vo.commentid}&&status=0" style="color: greenyellow;" >没问题</a>
+						<span onclick='del2(this,"{$vo.commentid}","__URL__/cdel")'>删除</span></a>
+
+					</td>
+				</tr>
+				</volist>
+				</tbody>
+
+			</table>
+			<span style="text-align: center;">{$page}</span>
+<!-- table end -->
+
+</block>
+
+
+</body>
+</html>

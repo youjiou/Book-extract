@@ -1,0 +1,55 @@
+<extend name="base" />
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+
+</head> 
+<body>
+	<block name="where">
+	<a href="#">authorInfo</a>
+	
+	</block>
+	
+ <block name="content1">
+<!-- table Start -->
+			<table class="col-md-12 table table-striped tablesorter">
+				<thead>
+				<tr>
+					<th>id</th>
+					
+					<th >账号</th>
+					
+					<th>用户名</th>
+					
+					<th>作品</th>
+					
+					<th>操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				<volist name="list" id="vo">
+				<tr>
+					
+					<td>{$vo.userid}</td>
+					<td>{$vo.username}</td>
+					<td>{$vo.name}</td>
+					<td><a onclick="abook(this,'{$vo.userid}')">《{$vo.bookname}》...</a></td>
+					<td>
+						<a href="{:U('Admin/authorInfoUpdate')}?id={$vo.userid}">修改</a>
+						<span onclick='del2(this,"{$vo.userid}","__URL__/adel")'>删除</span>
+						
+					</td>
+				</tr>
+				</volist>
+				</tbody>
+			</table>
+			<span style="text-align: center;">{$page}</span>
+			
+<!-- table end -->
+	
+</block>
+
+</body>
+
+</html>

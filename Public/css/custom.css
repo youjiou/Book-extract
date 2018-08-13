@@ -1,0 +1,191 @@
+html, body {width:100%;height:100%;} /*非常重要的样式让背景图片100%适应整个屏幕*/
+.bg {display: table;width: 100%;height: 100%;padding: 100px 0;text-align: center;color: #fff;background: url(../images/bg.jpg) no-repeat bottom center;background-color: #000;background-size: cover;}
+.my-navbar {padding:20px 0;transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;}
+.my-navbar a{background:transparent !important;color:#fff !important}
+.my-navbar a:hover {color:#45bcf9 !important;background:transparent;outline:0}
+.my-navbar a {transition: color 0.5s ease-in-out;}/*-webkit-transition ;-moz-transition*/
+.top-nav {padding:0;background:#000;}
+button.navbar-toggle {background-color:#fbfbfb;}/*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/
+button.navbar-toggle > span.icon-bar {background-color:#dedede}
+
+
+ul.nav-tabs{
+    width: 140px;
+    margin-top: 200px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+ul.nav-tabs li{
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
+ul.nav-tabs li:first-child{
+    border-top: none;
+}
+ul.nav-tabs li a{
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 0;
+}
+ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+    color: #fff;
+    background: #0088cc;
+    border: 1px solid #0088cc;
+}
+ul.nav-tabs li:first-child a{
+    border-radius: 4px 4px 0 0;
+}
+ul.nav-tabs li:last-child a{
+    border-radius: 0 0 4px 4px;
+}
+ul.nav-tabs.affix{
+    top: 30px; /* Set the top position of pinned element */
+}
+
+
+
+.MyHeader{
+    padding: .5px 0px 0px 50px;
+    height: 70px;
+    width: 100%;
+    background: gainsboro;
+    color: red;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.MyHeader .breadcrumb{
+    padding: 30px 0px 0px 50px;
+    height: 70px;
+}
+
+
+.MyContent{
+ margin: 50px 0 20px 50px;
+ font-weight: bold;
+}
+
+.MyContent .searchH{
+    font-size: 20px;line-height: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+/*mianbao xue  */
+.breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "-->";
+    padding: 0 5px;
+}
+
+
+.booklist{
+    padding: 30px;
+    margin: 50px auto;
+    line-height: 30px;
+    height: 50%;
+    width: 90%;
+    background:ghostwhite;
+}
+
+ .itop img{
+   display: block;
+   width: 33%;
+     height: 33%; ;
+     margin-left:40%;
+}
+ .ibottom {
+     margin-top: 2%;
+     margin-left: 30%;
+     font-weight: bold;
+     color:  rgb(197, 137, 83);
+ }
+
+ .bookname{
+     font-weight: bold;
+     font-size: 28px;
+     line-height: 30px;
+ }
+
+ .bookins{
+     font-size: 22px;
+     line-height: 25px;
+     margin-left: 12%;
+     margin-top: 2%;
+ }
+ .readbook{
+     margin-left: 55%;
+     margin-top: 8%;
+ }
+
+
+ .Myarea{
+     padding: 30px;
+     margin: 20px auto;
+     line-height: 30px;
+     height: 80%;
+     width: 90%;
+     background:ghostwhite;
+ }
+ 
+ .Myarea .aleft{
+      position: relative;
+     font-weight: bold;
+     padding: 20px;
+       float: left;
+       width: 50%;
+       height: 100%;
+      border-right:1px dashed #00bcd4;
+   }
+.Myarea .aright{
+    font-weight: bold;
+    padding: 20px;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.Myarea .aleft .writer{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+/*小说页*/
+.bgcolor{
+    color: #eafaf0;
+}
+
+
+
+/*read*/
+.ititle{
+    font-size: 60px;
+}
+
+.intro .auther{
+    font-family: "微软雅黑", "宋体";
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 100px 0 0px;
+}
+.intro .itime{
+    font-family: "微软雅黑", "宋体";
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 0 150px;
+}
+.Rbook .icontent{
+    font-family: "微软雅黑", "宋体";
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 50px;
+}
+
+
+
+
+

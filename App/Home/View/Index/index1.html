@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+	<meta charset="utf-8">
+	<title>www.h2design.com</title>
+	<meta name="description" content="Free Html5 Templates and Free Responsive Themes Designed by Kimmy | zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__PUBLIC__/css/css/zerogrid.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/css/style.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/css/responsive.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/css/responsiveslides.css" />
+	
+	<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
+	
+	<script src="__PUBLIC__/js/js/jquery.min.js"></script>
+	<script src="__PUBLIC__/js/js/responsiveslides.js"></script>
+	<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+        auto: true,
+        pager: false,
+        nav: true,
+        speed: 500,
+        maxwidth: 960,
+        namespace: "centered-btns"
+      });
+    });
+  </script>
+</head>
+
+<style>
+p{
+	font-weight:bolder;
+	color:#000;
+	font-size:18px;
+}
+.slife{
+	float:right;
+	width:100%;
+	margin-top:5%;
+	margin-bottom:3%;
+}
+.slife a{
+	padding:1%;
+	margin-left:4%;
+}
+.slife a:hover{
+	background-color:#F6F;
+	border-radius:3% 15px;
+}
+.slife span.current {
+	background-color:#F6F;
+	border-radius:3% 15px;
+	padding:1%;
+	margin-left:4%;
+}
+.slife .not-allowed {
+    cursor: not-allowed;
+}
+</style>
+<body>
+<div class="container">
+<!--------------Header--------------->
+<header> 
+	
+  <nav style="float:left; background:#DCD1B1; margin-left:10% !important; position:relative;">
+		<ul class="menu" style="float:left; ">
+			<li><a href="{:U('Home/Index/index')}">书城</a></li>
+			<li><a href="{:U('Home/Index/people')}">我的</a></li>			
+		</ul>
+   </nav>
+   
+    <div style=" float:right; margin-top:6%; margin-right:25%;">
+         <form action="__URL__/search" method="post">
+            <input type="search" name="keys" placeholder="Search" style=" padding:5px; width:auto; background-color:#F6F6F6; 
+            position:absolute; right:25%; top:39%;border:solid 2px #851916;"/>
+            <input type="text" onClick="" readonly style="width:30px;height:23px; background:url(__PUBLIC__/images/images/search.jpg) no-repeat;background-size:100% 100% !important; position:absolute; right:26%; top:41%;">
+           
+           
+            <input type="submit" onClick="" value="搜索" 
+            style="height:29px;padding:3.95px;width:auto; background-color:#F6F6F6;position:absolute; right:21.5%; top:39%; border-radius:0 15px 15px 0; border:solid 2px #851916;"/>
+          </form>
+    </div>
+</header>
+	
+<div class="feature">	
+	<div class="rslides_container">
+		<ul class="rslides" id="slider">
+			<li><img src="__PUBLIC__/images/images/1.jpg"/></li>
+			<li><img src="__PUBLIC__/images/images/2.jpg"/></li>
+			<li><img src="__PUBLIC__/images/images/3.jpg"/></li>
+			<li><img src="__PUBLIC__/images/images/4.jpg"/></li>
+		</ul>
+	</div>
+</div>	
+
+<!--------------Content--------------->
+<section id="content">
+	<div class="zerogrid">
+		<div class="row block">
+
+			<div class="main-content col08">
+				<div class="row">
+					<div class="col04 offleft">
+                    <div >
+						<p class="more">精品小说</p>
+					</div>
+						<article>
+                            <volist name="data" id="vo">
+                                <a href="{:U('Home/Index/books')}?bid={$vo.bid}">
+                                    <img src="__PUBLIC__/images/images/{$vo.content}"/>
+                                    <h2 >{$vo.bookname}</h2>
+                                </a><br>
+                             </volist>
+						</article>
+                    <div >
+                    
+						<p>女生小说</p>
+					</div>
+						<article>
+                        	<volist name="data2" id="vo2">
+                                <a href="{:U('Home/Index/books')}?bid={$vo2.bid}">
+                                    <img src="__PUBLIC__/images/images/{$vo2.content}">
+                                    <h2 >{$vo2.bookname}</h2>
+                                </a><br>
+                            </volist>
+						</article>
+					</div>
+                    
+					<div class="col04 offright">
+                    <div>
+						<p class="more">热门畅销</p>
+					</div>
+						<article>
+                            <volist name="data3" id="vo3">
+                                <a href="{:U('Home/Index/books')}?bid={$vo3.bid}">
+                                    <img src="__PUBLIC__/images/images/{$vo3.content}">
+                                    <h2 >{$vo3.bookname}</h2>
+                                </a><br>
+                            </volist>	
+						</article>
+                   <div>
+						<p class="more">男生小说</p>
+					</div>
+						<article>
+							<volist name="data4" id="vo4">
+                                <a href="{:U('Home/Index/books')}?bid={$vo4.bid}">
+                                    <img src="__PUBLIC__/images/images/{$vo4.content}">
+                                    <h2 >{$vo4.bookname}</h2>
+                                </a><br>
+                            </volist>
+						</article>
+					</div>
+				</div>
+			</div>
+			
+			<div class="sidebar col08 offall">
+                <foreach name="data5" item="vo5">
+                    <section>
+                        <div style="margin:28px; float:left;" >
+                            <a href="{:U('Home/Index/books')}?bid={$vo5.bid}" style="float:left; margin-right:12px;">
+                                    <img src="__PUBLIC__/images/images/{$vo5.content}"/>
+                            </a>
+                            <span style="margin-left:16px; text-align:center;"><b style="font-size:15px;">内容简介：</b>
+   								 {$vo5.introduction}
+                            </span>
+                        </div>
+                    </section>
+                 </foreach>
+                <div class="slife">
+						{$page}
+                </div>
+			</div>
+            
+            <div class="right_d">
+            	joiuiohj 
+            </div>
+		</div>
+	</div>
+</section>
+</body>
+</html>

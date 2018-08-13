@@ -1,0 +1,58 @@
+<extend name="base" />
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+
+</head> 
+<body>
+	<block name="where">
+	<a href="#">bookInfo</a>
+	
+	</block>
+<!-- table Start -->
+<block name="content1">
+			<table class="col-md-12 table table-striped tablesorter">
+				<thead>
+				<tr>
+					<th>BID</th>
+					
+					<th >书名</th>
+					
+					<th>作者</th>
+					
+					<th>出版日期</th>
+					
+					<th>简介</th>
+					<th>操作
+					</th>
+				</tr>
+				</thead>
+				<tbody>
+					
+					
+				<volist name="list" id="vo">
+				<tr>
+					<td>{$vo.bid}</td>
+					<td><a href="{:U('Admin/bookRead')}?bid={$vo.bid}">《{$vo.bookname}》</a></td>
+					<td>{$vo.name}</td>
+					<td>{$vo.publishedtime|strtotime|date='Y-m-d',###}</td>
+					<td><span>{$vo.introduction}</span></td>
+					<td width="130px">
+						<a href="{:U('Admin/bookInfoUpdate')}?id={$vo.bid}">修改</a>
+						<span onclick='del2(this,"{$vo.bid}","__URL__/bdel")'>删除</span>
+						
+					</td>
+				</tr>
+				</volist>
+				</tbody>
+
+			</table>
+			<span style="text-align: center;">{$page}</span>
+<!-- table end -->
+	
+</block>
+
+
+</body>
+</html>

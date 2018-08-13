@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+	<meta charset="utf-8">
+	<title>www.h2design.com</title>
+	<meta name="description" content="Free Html5 Templates and Free Responsive Themes Designed by Kimmy | zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__PUBLIC__/css/css/zerogrid.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/css/style.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/css/responsive.css">
+	<link rel="stylesheet" href="__PUBLIC__/css/css/responsiveslides.css" />
+	<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
+    <link rel="stylesheet" href="__PUBLIC__/css/css/books1.css" />
+	
+	<script src="__PUBLIC__/js/js/jquery.min.js"></script>
+	<script src="__PUBLIC__/js/js/responsiveslides.js"></script>
+	<script>
+        $(function () {            
+            $(".like").click(function () {
+                $(this).toggleClass('cs');
+				$("#a2").attr("disabled", true);
+            })
+			$(".like2").click(function () {
+                $(this).toggleClass('cs');
+				$("#a3").attr("disabled", true);
+            })
+        })
+    </script>
+</head>
+
+<style>
+
+body{height:100%;}	
+.container{
+	height:auto;
+}
+.container .book-img_msg{ height:auto; }
+.container .content{ height:auto;}
+
+p{
+	font-weight:bolder;
+	color:#000;
+	font-size:18px;
+}
+.like{ font-size:18px;  color:#ccc; cursor:pointer; margin-top:1px; background-color:#fff; border:none;}
+.book_button{}
+.like2{ font-size:30px;  color:#333; cursor:pointer; border:none; float:left; margin-left:3%;}
+.cs{color:#f00;}
+	
+</style>
+<body>
+<div class="container">
+<!--------------Header--------------->
+<header style=""> 
+	
+  <nav style="float:left; background:#DCD1B1; margin-left:10% !important; position:relative;">
+		<ul class="menu" style="float:left; ">
+			<li><a href="{:U('Home/Index/index')}">书城</a></li>
+			<li><a href="{:U('Home/Index/people')}">我的</a></li>			
+		</ul>
+   </nav>
+   
+    <div style=" float:right; margin-top:6%; margin-right:25%;">
+            <input type="search" placeholder="Search" style=" padding:5px; width:auto; background-color:#F6F6F6; 
+            position:absolute; right:25%; top:39%;border:solid 2px #851916;"/>
+            <input type="text" onClick="" readonly style="width:30px;height:23px; background:url(__PUBLIC__/images/images/search.jpg) no-repeat;background-size:100% 100% !important; position:absolute; right:26%; top:41%;">
+            
+            
+            <input type="button" onClick="" value="搜索" 
+            style="height:29px;padding:3.95px;width:auto; background-color:#F6F6F6;position:absolute; right:21.5%; top:39%; border-radius:0 15px 15px 0; border:solid 2px #851916;"/>
+        
+    </div>
+</header>
+<div class="main_t">
+    <div class="book-img_msg">	
+        <volist name="list" id="vo">
+            <div class="book-img">
+                <img src="__PUBLIC__/images/images/{$vo.content}"/>
+            </div>
+            <div class="book-msg">
+                    <b>{$vo.bookname}</b>
+                    <ul>
+                        <li>阅读人数：<span>0</span></li>
+                        <li>字数：<span>111010</span></li>
+                        <li>作者：<span>{$vo.name}</span></li>
+                        <li>已完结</li>
+                    </ul>
+                    <div class="img_bookmsg">
+                        {$vo.introduction}
+                    </div>
+                    <div class="book_button">
+                    <a href="{:U('Home/Index/read')}?bid={$vo.bid}" style="color:#fff;">
+                        <button style="margin-right:6%; background-color:#F063A5;">开始阅读</button>
+                    </a>
+                    <span class="like2">&#10084;</span>
+                    </div>
+                    
+            </div>
+        </volist>
+    </div>	
+</div>
+<div class="main_d">
+<div id="content" class="content">
+        <div class="pl"><b>评论</b><span class="num_pl" id="plnum" style="color:#ccc; float:left;">共有0条评论</span>
+        	<volist name="pl" id="vo">
+            	
+            
+                <div class="show_pl">
+                    <p id="user_pl">{$vo.name}:</p>
+                    <p id="pl_ct" style="color:#000; margin-left:5%;">
+                                    {$vo.message}
+                    </p>
+                    <div class="pl_time" style="float:left; color:#ccc;">{$vo.pubishedtime}</div>
+                    <div class="like1" style="float:right; margin-right:20%; color:#F063A5;">
+                        <input type="text" id="a1" style="text-align:right; background:#fff;" readonly disabled value="{$vo.likenum}"/>
+                        <input type="text" value="&#10084;" class="like" readonly size="1" id="a">
+                    </div>
+                </div>
+             </volist>
+                <div class="menu_list1">
+                     
+                </div>
+                
+                
+                <div class="pl_book">
+                    <textarea rows="4" maxlength="200" placeholder="我得来说几句" id="" ></textarea>
+                </div>
+                <a href="" style="color:#fff; padding:2%; background-color:#F063A5; border-radius:43%;">
+                     发表
+                </a>
+            
+        </div>
+        
+        
+        <div class="sz">
+        <b>书摘</b><span class="num_sz" id="sznum" style="color:#ccc; float:left;">共有0条书摘</span>
+            <volist name="sz" id="vo">
+                <div class="sz_book">
+                    <p id="user_sz">{$vo.id}：</p>
+                    <p id="pl_sz" style="color:#000; margin-left:5%;">{$vo.content}</p>
+                    
+                    <div class="sz_time" style="float:left; color:#ccc;">{$vo.pubishedtime}</div>
+                    <input type="text" id="a1" style="text-align:right; background:#fff;" readonly disabled value="{$vo.likenum}"/>
+                     <input type="text" value="&#10084;" class="like" readonly size="1" id="a2">
+                </div>
+            </volist>
+     	</div>
+     </div>
+</div>
+
+</div>
+</body>
+</html>

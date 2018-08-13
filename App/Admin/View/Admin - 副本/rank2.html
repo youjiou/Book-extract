@@ -1,0 +1,205 @@
+<extend name="base" />
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+
+</head>
+<body>
+	<block name="where">
+	<a href="#">rank</a>
+
+	</block>
+<block name="content1">
+<!--four-grids here-->
+
+	<div class="clearfix" style="margin: 20px;"></div>
+
+	<div id="chart1" class="col-xs-8 col-xs-offset-1" style="height:600px;width: 1000px;"></div>
+
+	<div id="chart2" class="col-xs-8 col-xs-offset-1" style="height:600px;width: 1000px;"></div>
+
+<!--//four-grids here-->
+</block>
+</body>
+<block name="js2">
+	 <!-- ECharts单文件引入 -->
+    <script src="__PUBLIC__/echarts-2.2.7/build/dist/echarts.js"></script>
+    <script type="text/javascript">
+		let cdata=[
+		<?php
+		for($j=0;$j<10;$j++){
+			echo '"'   ,   $list[$j]['bookname']   ,    '"'   ,',';
+		}
+		?>
+		];
+
+		let bdata=[
+		<?php
+		for($i=0;$i<10;$i++){
+			echo $list[$i]['num'],',';
+		}
+		?>
+		];
+
+
+		let digestb=[
+		<?php
+		for($j=0;$j<10;$j++){
+			echo '"'   ,   $digest[$j]['bookname']   ,    '"'   ,',';
+		}
+		?>
+		];
+
+		let digestn=[
+		<?php
+		for($i=0;$i<10;$i++){
+			echo $digest[$i]['num'],',';
+		}
+		?>
+		];
+
+		//console.log(bdata);
+
+		//console.log(cdata);
+        // 路径配置
+        require.config({
+            paths: {
+                echarts: '__PUBLIC__/echarts-2.2.7/build/dist'
+            }
+        });
+
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/bar' // 使用柱状图就加载bar模块，按需加载
+            ],
+            function (ec) {
+                // 基于准备好的dom，初始化echarts图表
+                var chart1 = ec.init(document.getElementById('chart1'));
+     // option star
+
+				option = {
+					title : {
+						text: '热门',
+						subtext: '当月图书热度'
+					},
+					tooltip : {
+						trigger: 'axis'
+					},
+					legend: {
+						data:['评论数']
+					},
+					toolbox: {
+						show : true,
+						feature : {
+							mark : {show: true},
+							dataView : {show: true, readOnly: false},
+							magicType: {show: true, type: ['line', 'bar']},
+							restore : {show: true},
+							saveAsImage : {show: true}
+						}
+					},
+					calculable : true,
+					yAxis : [
+						{
+							type : 'value',
+							boundaryGap : [0, 0.01]
+						}
+					],
+					xAxis : [
+						{
+							type : 'category',
+							data : cdata
+						}
+					],
+					series : [
+						{
+							name:'评论数',
+							type:'bar',
+							data:bdata
+						},
+
+					]
+				};
+
+				//op end
+
+                // 为echarts对象加载数据
+                chart1.setOption(option);
+				setTimeout(function (){
+					bdata=[];
+					cdata=[];
+					chart1.setOption(option);
+				},5000)
+
+				//chart2
+               var chart2 = ec.init(document.getElementById('chart2'));
+    // option star
+
+				option2 = {
+					title : {
+						text: '',
+						subtext: '年度热门图书排行'
+					},
+					tooltip : {
+						trigger: 'axis'
+					},
+					legend: {
+						data:['评论']
+					},
+					toolbox: {
+						show : true,
+						feature : {
+							mark : {show: true},
+							dataView : {show: true, readOnly: false},
+							magicType: {show: true, type: ['line', 'bar']},
+							restore : {show: true},
+							saveAsImage : {show: true}
+						}
+					},
+					calculable : true,
+					yAxis : [
+						{
+							type : 'value',
+							boundaryGap : [0, 0.01]
+						}
+					],
+					xAxis : [
+						{
+							type : 'category',
+							data : digestb
+						}
+					],
+					series : [
+						{
+							name:'评论',
+							type:'bar',
+							data:digestn
+						},
+
+					]
+				};
+
+				//op end
+
+               // 为echarts对象加载数据
+               chart2.setOption(option2);
+
+			//test 33
+
+
+
+
+
+
+
+
+
+            }
+        );
+    </script>
+
+</block>
+</html>

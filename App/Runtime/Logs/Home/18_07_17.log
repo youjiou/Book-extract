@@ -1,0 +1,26 @@
+[ 2018-07-17T23:14:53+08:00 ] ::1 /project/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.059003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `books` RIGHT JOIN uinfomation ON books.UserID = uinfomation.UserID  WHERE ( status = 1 ) ORDER BY bid desc LIMIT 8   [ RunTime:0.0370s ]
+SQL: SELECT books.bid,books.bookname,count(*) as num FROM `books` INNER JOIN comment ON books.bid = comment.bid  GROUP BY comment.bid ORDER BY num desc LIMIT 10   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `digest` [ RunTime:0.0160s ]
+SQL: SELECT digest.bookid,books.bookname,count(*) as num FROM `digest` INNER JOIN books ON digest.bookid = books.bid  GROUP BY books.bid ORDER BY num desc LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: msg E:\less1\phpstudy\PHPTutorial\WWW\project\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
